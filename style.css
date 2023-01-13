@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap');
+
+:root{
+    --dark-blue: #271A45;
+    --light-pink: #D9CDF7;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-pink);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+}
+
+#product-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    color: var(--dark-blue);
+    width: 50%;
+    height: auto;
+}
+
+.icon{
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+#icon-x{
+}
+
+.sofa{
+    width: 449px;
+    height: 253px;
+    margin: 0 auto;
+}
+
+.code{
+    font-family: 'Lato', serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.item-name{
+    font-family: 'Crimson Pro', serif;
+    font-size: 2.625rem;
+    margin: 0;
+}
+
+.price{
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.add-to-cart{
+    width: 148px;
+    height: 32px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid var(--dark-blue);
+    color: var(--dark-blue);
+    background-color: var(--light-pink);
+}
+
+.invisible{
+    display: none;
+}
+
+
